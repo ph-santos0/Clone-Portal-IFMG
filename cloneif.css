@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#indice {
+    width: 100%;
+    height: auto;
+    background-color: green;
+    display: flex;
+    gap: 16px;
+    color: white;
+}
+
+#indice a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#topo {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#logo {
+    width: 250px;
+    margin-left: 8px;
+}
+
+#topo h1 {
+    color: white;
+    text-align: center;
+}
+
+#pesquisa {
+    width: 180px;
+}
+
+#indice2 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 100, 0);
+    display: flex;
+    gap: 16px;
+    color: white;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.500);
+}
+
+#centro {
+    display: flex;
+    text-align: center;
+    width: 230px;
+    border: 3px solid green;
+    margin: 64px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);
+    margin-bottom: 450px;
+}
+
+#conteudo {
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+#conteudo h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#rodape {
+    width: 100%;
+    height: auto;
+    background-color: green;
+}
+
+#rodape a {
+    display: flex;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 8px;
+}
